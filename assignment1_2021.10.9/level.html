@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="active.js"></script>
+    <title>Staff Quarters at Fo Tan</title>
+</head>
+
+<body>
+    <nav class="navbar is-transparent is-fixed-top is-light" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item logo" href="https://www.hkbu.edu.hk/">
+                <strong>HKBU</strong>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" data-target="navMenu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="#Development" class="navbar-item">
+                    Development
+                </a>
+
+                <a href="#Apartment" class="navbar-item">
+                    Apartment
+                </a>
+
+                <a href="#Facility" class="navbar-item">
+                    Facility
+                </a>
+
+                <a href="#Carpark" class="navbar-item">
+                    Carpark
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a href="#Estates-Office" class="navbar-link">
+                        Estates Office
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a href="#Scope-of-Services" class="navbar-item">
+                            Scope of Services
+                        </a>
+                        <a href="#Information" class="navbar-item">
+                            Contacts
+                        </a>
+                    </div>
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a href="#Property-Manager" class="navbar-link">
+                        Property Manager
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a href="#Introduction" class="navbar-item">
+                            Scope-of-Services
+                        </a>
+                        <a href="#Management-Office" class="navbar-item">
+                            Contacts
+                        </a>
+                        <hr class="navbar-divider">
+                        <a href="#Security-Services" class="navbar-item">
+                            Security Services
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a href="mailto:ssq@hkbu.edu.hkclass" class="button is-dark">
+                            <strong>Email</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container is-max-widescreen">
+        <div class="notification is-white">
+            <section class="section">
+                <div class="content">
+                    <h1 id="Development" class="title">Development</h1>
+                </div>
+            </section>
+            <div class="container is-max-desktop">
+                <div class="notification is-white">
+                    <div class="tile is-ancestor">
+                        <div class="tile is-4 is-vertical is-parent">
+                            <div class="tile is-child box">
+                                <p class="title"></p>
+                                <p class="zuobian">Built Upon the hillside of Fo Tan at Shatin and attracts the scenery
+                                    of Shatin Town
+                                    Centre, the
+                                    development was built by the University and occupied in Autumn 1994. It composed a
+                                    total of 113
+                                    units in 5 Towers with 8 storeys in each Tower.</p>
+                            </div>
+                        </div>
+                        <div class="tile is-parent">
+                            <div class="tile is-child box">
+                                <p class="title"></p>
+                                <p class="youbian">All 5 Towers of development were used as the staff quarters of the
+                                    University until
+                                    end of June, 2000. In response to the introduction of new home financing scheme by
+                                    the government,
+                                    two towers (Tower 4 & Tower 5) were returned to the government in July, 2000. At
+                                    present, Tower 1
+                                    to Tower 3 are used as the staff quarters of the University while Tower 4 & Tower 5
+                                    are used as
+                                    government quarters for civil servants.
+                                <table class="table is-fullwidth">
+                                    <tr>
+                                        <td>Location :</td>
+                                        <td>22 Sui Wo Road, Fo Tan, Shatin, N.T., Hong Kong</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Telephone No. :</td>
+                                        <td>3411 5650</td>
+                                    </tr>
+                                </table>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="pictures/banner_about_d.jpg">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container is-max-widescreen">
+        <div class="notification is-white">
+            <section class="section">
+                <div class="content">
+                    <h1 id="Apartment" class="title">Apartment</h1>
+                </div>
+                <div class="content is-small">
+                    <p class="subtitle">
+                        There are a total of 68 apartments in Tower 1 to Tower 3 with gross floor area ranging from 100
+                        sq.m. to 170 sq.m.
+                    </p>
+                </div>
+            </section>
+            <div class="container is-max-desktop">
+                <div class="notification is-light">
+                    <div class="columns is-mobile">
+                        <div id="chartdiv" class="chartdiv" style="width:60vw; height:80vh;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="//www.amcharts.com/lib/4/core.js"></script>
+    <script src="//www.amcharts.com/lib/4/charts.js"></script>
+    <script src="//www.amcharts.com/lib/4/themes/animated.js"></script>
+    <script>
+        am4core.useTheme(am4themes_animated);
+
+        var chart = am4core.createFromConfig({
+            "data": [{
+                "Apartment": "100 sq.m.",
+                "nos.": 501
+            }, {
+                "Apartment": "135 sq.m.",
+                "nos.": 301
+            }, {
+                "Apartment": "150 sq.m.",
+                "nos.": 201
+            }, {
+                "Apartment": "170 sq.m.",
+                "nos.": 165
+            },],
+            "xAxes": [{
+                "type": "CategoryAxis",
+                "dataFields": {
+                    "category": "Apartment",
+
+                },
+                "title": {
+                    "text": "Apartment"
+                }
+            }],
+            "yAxes": [{
+                "type": "ValueAxis",
+                "title": {
+                    "text": "nos."
+                }
+            }],
+            "series": [{
+                "type": "ColumnSeries",
+                "dataFields": {
+                    "valueY": "nos.",
+                    "categoryX": "Apartment"
+                },
+                "columns": {
+                    "tooltipText": "Square: {categoryX}\nNumble: {valueY}",
+                    "fill": "#104547"
+                }
+            }]
+        }, "chartdiv", am4charts.XYChart);
+    </script>
+
+
+
+
+    <div class="container is-max-widescreen">
+        <div class="notification is-white">
+            <section class="section">
+                <div class="content">
+                    <h1 id="Facility" class="title">Facility</h1>
+                    <div class="content is-small">
+                        <p class="subtitle">
+                            There are various facilities for teachers and students.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <div class="container is-max-desktop">
+                <div class="notification is-white">
+                    <section class="section">
+                        <div class="container">
+                            <div class="columns is-mobile is-multiline is-vcentered">
+                                <div class="column is-half-mobile card">
+                                    <figure class="image is-3by1">
+                                        <img style="object-fit:cover" src="pictures/common room.gif" />
+                                    </figure>
+                                </div>
+                                <div class="column is-half-mobile card">
+                                    <figure class="image is-3by2">
+                                        <img style="object-fit:cover" src="pictures/tabletennis.gif" />
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="columns is-mobile is-multiline is-vcentered">
+                                <div class="column is-half-mobile card">
+                                    <figure class="image is-2by1">
+                                        <img style="object-fit:cover" src="pictures/playground.gif" />
+                                    </figure>
+                                </div>
+                                <div class="column is-half-mobile card">
+                                    <figure class="image is-16by9">
+                                        <img style="object-fit:cover" src="pictures/squashcourt.gif" />
+                                    </figure>
+                                </div>
+                                <div class="column is-half-mobile card">
+                                    <figure class="image is-2by1">
+                                        <img style="object-fit:cover" src="pictures/fitness room.gif" />
+                                    </figure>
+                                </div>
+                                <div class="column is-half-mobile card">
+                                    <figure class="image is-4by3">
+                                        <img style="object-fit:cover" src="pictures/swimmingpool.gif" />
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container is-max-widescreen">
+        <div class="notification is-white">
+            <section class="section">
+                <div class="content">
+                    <h1 id="Carpark" class="title">Carpark</h1>
+                </div>
+            </section>
+        </div>
+        <div class="container is-max-desktop">
+            <div class="notification is-white">
+                <div class="tile is-ancestor">
+                    <div class="tile is-vertical is-parent">
+                        <div class="tile is-child box spaces">
+                            <ul>
+                                <li>Spaces owned by the University are marked by yellow border.</li>
+                                <hr>
+                                <li>Residents are advised to observe the carpark regulations.</li>
+                                <hr>
+                                <li>Guests parking is available upon registration at the entrance guard house.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <div class="columns is-mobile">
+                                <div id="carpark" class="carpark" style="width:40vw; height:45vh;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        am4core.useTheme(am4themes_animated);
+
+        var chart = am4core.createFromConfig({
+            "data": [{
+                "types": "Covered",
+                "spaces": 60
+            }, {
+                "types": "open",
+                "spaces": 25
+            }],
+            "xAxes": [{
+                "type": "CategoryAxis",
+                "dataFields": {
+                    "category": "types",
+
+                },
+                "title": {
+                    "text": "types"
+                }
+            }],
+            "yAxes": [{
+                "type": "ValueAxis",
+                "title": {
+                    "text": "spaces"
+                }
+            }],
+            "series": [{
+                "type": "ColumnSeries",
+                "dataFields": {
+                    "valueY": "spaces",
+                    "categoryX": "types"
+                },
+                "columns": {
+                    "tooltipText": "types: {categoryX}\nNumber: {valueY}",
+                    "fill": "#104547"
+                }
+            }]
+        }, "carpark", am4charts.XYChart);
+    </script>
+
+
+
+
+    <div class="container is-max-widescreen">
+        <div class="notification is-white">
+            <section class="section">
+                <div class="content">
+                    <h1 id="Estates-Office" class="title">Estates Office</h1>
+                </div>
+            </section>
+            <div class="container is-max-desktop">
+                <div class="notification is-light">
+                    <div class="content">
+                        <h5 id="Scope-of-Services">Scope of Services</h5>
+                        <ul>
+                            <li class="list">To supervise the performance of the property management service company.
+                            </li>
+                            <li class="list">To manage the move-in and move-out of residents.</li>
+                            <li class="list">To manage and maintain the <strong>household facilities</strong>
+                                <p class="EO-scope-of-services3">e.g. University provided furniture, household
+                                    appliances
+                                    inside the apartment. For
+                                    request of any
+                                    repairs and maintenance works inside the apartment, please fill in and return us the
+                                    <a href="documents/maint-form.doc" target="_parent">Request for Maintenance/Repair
+                                        Service Form
+                                    </a>
+                                </p>
+                            </li class="list">
+                            <li class="list">To handle enquiries and complaints from residents</li>
+                            <li class="list">To manage the leasing matter.</li>
+                        </ul>
+                    </div>
+                </div>
+                <table class="estates table is-fullwidth">
+                    <caption id="Information">Contacts</caption>
+                    <tr>
+                        <td>Location :</td>
+                        <td></td>
+                        <td colspan="3">Room 601, Oen Hall Building, Ho Sin Hang Campus, Hong Kong Baptist University,
+                            Kowloon Tong,
+                            Kowloon, Hong Kong.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class='sundays'>Telephone No.:</td>
+                        <td></td>
+                        <td>3411 5660</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sundays">Fax No. :</td>
+                        <td></td>
+                        <td>3411 5627</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sundays">Office Hours :</td>
+                        <td></td>
+                        <td>Monday - Friday :</td>
+                        <td></td>
+                        <td>9:00 a.m. - 1:00 p.m.</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sundays"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2:00 p.m. - 5:30 p.m.</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sundays"></td>
+                        <td></td>
+                        <td>Saturday :</td>
+                        <td></td>
+                        <td>9:00 a.m. - 12:00 noon</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sundays"></td>
+                        <td></td>
+                        <td>Sunday & Public Holiday :</td>
+                        <td></td>
+                        <td>Closed</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sundays">Contact Person :</td>
+                        <td></td>
+                        <td>Mr. Samuel Tam</td>
+                        <td></td>
+                        <td>Tel : 3411 7682</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="sundays"></td>
+                        <td></td>
+                        <td>Mr. W.C. Koo</td>
+                        <td></td>
+                        <td>Tel : 3411 5650</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container is-max-widescreen">
+        <div class="notification is-white">
+            <section class="section">
+                <div class="content">
+                    <h1 id="Property-Manager" class="title">Property Manager</h1>
+                    <p class="PM-wenben">
+                        A competent Property Management Company, SINO Property Management Co. Ltd (SINO) is appointed to
+                        manage the <strong>common areas and facilities</strong> of Staff Quarters. A team of experience
+                        and responsible staff is deployed on-site by SINO to take care the day-to-day management duties.
+                    </p>
+                </div>
+            </section>
+            <div class="container is-max-desktop">
+                <div class="notification is-light">
+                    <div class="content">
+                        <h5 id="Introduction">The scope of services for the Property Manager</h5>
+                        <ul>
+                            <li class="list">To operate a Management Office and a 24 hours security control room.
+                            </li>
+                            <li class="list">To provide security, cleaning and landscaping service to the common areas.
+                            </li>
+                            <li class="list"> To provide repair and maintenance service to the common areas and
+                                facilities
+                                <p>e.g. swimming pool, lift, fire service system, carpark facility etc.</p>
+                            </li>
+                            <li class="list">To handle emergency incident e.g. fire, flooding. lift trap, etc if
+                                happened.</li>
+                        </ul>
+                        <div class="box">All staff are not allowed to work for residents privately for a return nor can
+                            they receive instructions which may conflict with their normal duties. Should you have any
+                            suggestions/requests in related to the management and maintenance of the Staff Quarters, you
+                            can express your opinions by filling and returning the <a
+                                href="documents/suggestion-form.doc" target="_parent">Suggestion Form</a> or contact the
+                            Estates Office directly.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container is-max-desktop">
+                <div class="notification is-white">
+                    <table class="table is-fullwidth">
+                        <caption id="Management-Office">Contacts</caption>
+                        <tr>
+                            <td>Location :</td>
+                            <td></td>
+                            <td>Podium Level (1/F) of Tower 1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class='sundays'>On-site Supervisor :</td>
+                            <td></td>
+                            <td>Mr. Wong</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="sundays">Telephone No. :</td>
+                            <td></td>
+                            <td>2688 0465</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="sundays">Fax No. :</td>
+                            <td></td>
+                            <td>2688 0590</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="sundays">Office Hours :</td>
+                            <td></td>
+                            <td>Monday - Friday :</td>
+                            <td></td>
+                            <td>9:00 a.m. - 12:00 noon</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="sundays"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>2:00 p.m. - 5:30 p.m.</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="sundays"></td>
+                            <td></td>
+                            <td>Saturday :</td>
+                            <td></td>
+                            <td>9:00 a.m. - 12:00 noon</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="sundays"></td>
+                            <td></td>
+                            <td>Sunday & Public Holiday :</td>
+                            <td></td>
+                            <td>Closed</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="container is-max-desktop">
+                <div class="notification is-light">
+                    <div class="content">
+                        <h5 id="Security-Services">Security Services & Control Room</h5>
+                        <div class="box">
+                            <p>24 hours security guards are posted on-site to provide security services and handle all
+                                emergency issues especially during non-office hours.Residents can contact the
+                                security-in-charge when in need at the 24 hours Security Control Room.</p>
+                        </div>
+                    </div>
+                    <table class="table is-fullwidth">
+                        <tr>
+                            <td>Location :</td>
+                            <td>G/F of Tower 5</td>
+                        </tr>
+                        <tr>
+                            <td>Telephone No. :</td>
+                            <td>2688 0473</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="section">
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <div>
+                <strong class="me">Developed</strong><a href="https://github.com/loggt"> <span class="me"> by Zhu
+                        Hengxi</span></a><span class="me"> 21405824</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

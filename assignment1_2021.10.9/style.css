@@ -1,0 +1,118 @@
+.zuobian{
+    line-height: 35px;
+    padding: auto;
+}
+.youbian{
+    line-height: 30px;
+    padding: auto;
+    padding-bottom: 30px;
+}
+.PM-wenben{
+    line-height: 30px;
+}
+
+
+.logo {
+    font-size: larger;
+}
+
+.chartdiv{
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.spaces{
+    line-height: 20px;
+    padding-top: 45px;
+}
+
+.EO-scope-of-services3{
+    line-height: 20px;
+    text-indent: 20px;
+}
+
+.list{
+    list-style: none;
+    padding: 20px;
+}
+
+.carpark{
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.columns.is-mobile{
+    justify-content: space-around;
+}
+
+caption {
+    color: rgb(58, 41, 58);
+    text-transform: uppercase;
+
+    font-family: Microsoft yahei;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+#Management-Office:target {
+    padding-top: 60px;
+    margin-top: -60px;
+  }
+#Development:target {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+#Apartment:target {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+#Facility:target {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+#Carpark:target {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+#Estates-Office:target {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+#Scope-of-Services:target {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+#Information:target {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+#Property-Manager:target {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+#Introduction:target {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+#Management-Office:target {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+#Security-Services:target {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+.footer{
+    background-color: rgb(45, 46, 46);
+    padding: 2rem 2rem 2rem;
+}
+
+.me{
+    color: rgb(214, 212, 208);
+    font-size: 1px;
+}
+
+body {
+    font: 1em ".AppleSystemUIFont", Helvetica, sans-serif;
+}
