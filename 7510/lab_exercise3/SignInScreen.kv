@@ -1,0 +1,45 @@
+<SignInScreen>:
+    name: 'SignInScreen'
+    canvas.before:
+        Color:
+            rgba: 0.1,0.2,0.4,1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    Column:
+        halign: 'center'
+        valign: 'center'
+        padding: dp(100)
+        spacing: dp(20)
+        MDLabel:
+            id: label
+            text: 'Discuss'
+            font_size: dp(48)
+            color: 1,1,1,1
+        Widget:
+            expandable: True
+        SignInTextField:
+            id: email_field
+            hint_text: 'Email'
+        SignInTextField:
+            id: password_field
+            hint_text: 'Password'
+            password: True
+        SignInTextField:
+            id: group_field
+            hint_text: 'Discussion Group ID'
+        MDFillRoundFlatIconButton:
+            icon: 'fingerprint'
+            text: 'Sign In'
+            on_release: root.signIn()
+<SignInTextField@MDTextField>
+    color_mode: 'custom'
+    line_color_focus: 1,1,1,1
+    line_color_normal: 1,1,1,1
+    hint_text_color: 1,1,1,1
+    current_hint_text_color: 1,1,1,0.6
+    text_color: 1,1,1,1
+
+    canvas.before:
+        Color:
+            rgba: 1,1,1,1
