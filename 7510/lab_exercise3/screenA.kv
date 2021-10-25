@@ -1,0 +1,43 @@
+<ScreenA>:
+    name: 'screenA'
+    BoxLayout:
+        orientation: 'vertical'
+        MDLabel:
+            text: 'This is a label'
+            font_name: 'Arial'
+            font_size: dp(48)
+            color: 1, 1, 1, 1
+            outline_width: dp(3)
+            outline_color: 0, 0, 0, 1
+            italic: True
+            bold: True
+            shorten: True
+            shorten_from: 'right'
+            halign: 'center'
+            valign: 'top'
+        MDIcon:
+            icon: 'android'
+            color: 1,0,0,1
+            font_size: dp(100)
+        AsyncImage:
+            source: 'https://www.hkbu.edu.hk/eng/images/logo.png'
+        MDFillRoundFlatIconButton:
+            icon: 'fingerprint'
+            text: 'Click Me'
+            on_release: root.clickme() 
+
+        MDSlider:
+            min: 0
+            max: 255
+            value: 255
+            on_touch_up: root.clickme()
+        MDCheckbox:
+            active: True
+            on_active: root.on_checkbox_active(*args)
+
+    MDFloatingActionButton:
+        icon: 'pencil'
+        x: root.width - self.width - dp(20)
+        y: dp(20)
+        on_release: root.clickme()
+
