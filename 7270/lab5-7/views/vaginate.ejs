@@ -1,0 +1,206 @@
+<!--paginate.ejs-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container" id="app">
+
+            <div class="card" v-for="booking in bookings">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        {{booking.name}}
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content">
+                        {{booking.numTickets}}
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <nav class="pagination" role="navigation" aria-label="pagination">
+                <button class="pagination-previous" v-bind:disabled="isFirstPage"
+                    v-on:click="fetchData(limit, offset - limit)">Previous</button>
+                <button class="pagination-next" :disabled="isLastPage"
+                    v-on:click="fetchData(limit, offset + limit)">Next page</button>
+                <ul class="pagination-list">
+                    <li>
+                        <a class="pagination-link" @click="fetchData(limit, 0)">1</a>
+                    </li>
+                    <li>
+                        <a class="pagination-link" v-if="!isFirstPage"
+                            @click="fetchData(limit, offset - limit)">{{currentPageNumber - 1}}</a>
+                    </li>
+                    <li>
+                        <a class="pagination-link is-current"
+                            @click="fetchData(limit, offset)">{{currentPageNumber}}</a>
+                    </li>
+                    <li>
+                        <a class="pagination-link" v-if="!isLastPage"
+                            v-on:click="fetchData(limit, offset + limit)">{{currentPageNumber + 1}}</a>
+                    </li>
+                    <li>
+                        <a class="pagination-link"
+                            @click="fetchData(limit, (Math.ceil(numOfRecords / limit) - 1) * limit)">{{Math.ceil(numOfRecords
+                            / limit)}}</a>
+
+                    </li>
+                    <!-- <li>
+                        <span class="pagination-ellipsis">&hellip;</span>
+
+                    </li>
+                    <li>
+                        <a class="pagination-link" id="lastLink">86</a>
+                    </li> -->
+                </ul>
+            </nav>
+            <div class="columns">
+                <b-input class="column" v-model="limit"></b-input>
+                <div class="column">
+                    <button class="button is-warning" @click="fetchData(limit, 0)">GO!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="https://unpkg.com/vue"></script>
+<!-- Full bundle -->
+<script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
+
+<!-- Individual components -->
+<script src="https://unpkg.com/buefy/dist/components/table"></script>
+<script src="https://unpkg.com/buefy/dist/components/input"></script>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            numOfRecords: parseInt("<%= numOfRecords %>"),
+            bookings: [],
+            currentPageNumber: 1,
+            limit: 2,
+            offset: 0,
+        },
+        computed: {
+            isFirstPage: function () { return (this.offset < this.limit) },
+            isLastPage: function () { return (this.offset + this.limit >= this.numOfRecords) },
+        },
+        methods: {
+            fetchData: async function (limit, offset) {
+
+                var response = await fetch("/bookings/vaginate?limit=" + limit + "&offset=" + offset);
+
+                if (response.ok) {
+                    var bookings = await response.json();
+                    this.bookings = bookings;
+                    this.offset = offset;
+                    this.limit = Math.max(limit, 2) || 2;
+
+                    this.currentPageNumber = Math.floor(offset / limit) + 1;
+                    // `this` inside methods points to the Vue instance
+
+                } else {
+                    alert(response.statusText);
+                }
+            },
+            mounted: function () {
+                this.fetchData(this.limit, this.offset);
+            },
+        },
+    })
+</script>
+<!-- <script>
+    var previousButton = document.getElementById("previousButton");
+    var nextButton = document.getElementById("nextButton");
+    var currentLink = document.getElementById("currentLink");
+    var previousLink = document.getElementById("previousLink");
+    var nextLink = document.getElementById("nextLink");
+    var firstLink = document.getElementById("firstLink");
+    var lastLink = document.getElementById("lastLink");
+
+    var numOfRecords = parseInt("<%= numOfRecords %>");
+
+    // const urlParams = new URLSearchParams(window.location.search);
+    // var limit = Math.max(parseInt(urlParams.get("limit")), 2) || 2;
+    // var offset = Math.max(parseInt(urlParams.get("offset")), 0) || 0;
+    async function fetchData(limit, offset) {
+
+        var response = await fetch('/bookings/aginate?limit=' + limit + '&offset=' + offset);
+
+        if (response.ok) {
+            var bookings = await response.json();
+
+            var temp = "";
+            bookings.forEach(function (booking) {
+                temp += "<tr><td>" + booking.name + "</td><td>" + booking.numTickets + "</td></tr>"
+            });
+
+            document.getElementById("bookingsTable").innerHTML = temp;
+            buildLinks(limit, offset);
+
+        } else {
+            document.getElementById("bookingsTable").innerHTML = "<tr><td>" + response.statusText + "</td></tr>";
+        }
+    }
+
+    function buildLinks(limit, offset) {
+
+        // var baseUrl = "/bookings/paginate?limit=" + limit + "&offset=";
+
+        // firstLink.href = baseUrl + 0;
+        // previousButton.href = baseUrl + (offset - limit);
+        // previousLink.href = baseUrl + (offset - limit);
+        // currentLink.href = baseUrl + offset;
+        // nextLink.href = baseUrl + (offset + limit);
+        // nextButton.href = baseUrl + (offset + limit);
+        // lastLink.href = baseUrl + (Math.ceil(numOfRecords / limit) - 1) * limit;
+
+        firstLink.onclick = function () { fetchData(limit, 0) };
+        previousButton.onclick = function () { fetchData(limit, offset - limit) };
+        previousLink.onclick = function () { fetchData(limit, offset - limit) };
+        currentLink.onclick = function () { fetchData(limit, offset) };
+        nextLink.onclick = function () { fetchData(limit, offset + limit) };
+        nextButton.onclick = function () { fetchData(limit, offset + limit) };
+        lastLink.onclick = function () { fetchData(limit, (Math.ceil(numOfRecords / limit) - 1) * limit) };
+
+        var currentPageNumber = Math.floor(offset / limit) + 1;
+        previousLink.innerHTML = currentPageNumber - 1;
+        currentLink.innerHTML = currentPageNumber;
+        nextLink.innerHTML = currentPageNumber + 1;
+        lastLink.innerHTML = Math.ceil(numOfRecords / limit);
+
+        if (offset < limit) {
+            previousButton.setAttribute("disabled", true);
+            previousButton.onclick = null;
+            previousLink.style.display = "none";
+        } else {
+            previousButton.removeAttribute("disabled");
+            previousLink.style.display = "block";
+        }
+
+        if (offset + limit >= numOfRecords) {
+            nextButton.setAttribute("disabled", true);
+            nextButton.onclick = null;
+            nextLink.style.display = "none";
+        } else {
+            nextButton.removeAttribute("disabled");
+            nextLink.style.display = "block";
+        }
+    }
+
+    // buildLinks();
+    fetchData(2, 0);
+
+</script> -->
+
+</html>
