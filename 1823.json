@@ -1,0 +1,1850 @@
+[
+    {
+        "Date": {
+            "Year": "2019",
+            "Month": "Jan"
+        },
+        "No._of_calls_received": "364610",
+        "No._of_abandoned_calls": "22073",
+        "%_of_calls_answered_within_12seconds": "65%",
+        "Average_call_handling_time(seconds)": "400",
+        "No._of_non_voice": {
+            "No._of_emails": "28771",
+            "No._of_faxes": "686",
+            "No._of_Apps-inbound": "16042",
+            "No._of_SMS": "2274",
+            "No._of_web-inbound": "4459"
+        },
+        "Unique_page_view_1823_web": "293109",
+        " Enquiries": {
+            "Call": "164732",
+            "Email": "2594",
+            "Fax": "50",
+            "Apps": "794",
+            "Chatbot": "",
+            "Voicebot": "",
+            "SMS": "198",
+            "Web": "466"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "26397",
+            "Email": "5289",
+            "Fax": "318",
+            "Apps": "10952",
+            "Voicebot": "",
+            "SMS": "141",
+            "Web": "2958"
+        },
+        " Suggestions": {
+            "Call": "567",
+            "Email": "79",
+            "Fax": "3",
+            "Apps": "71",
+            "SMS": "0",
+            "Web": "20"
+        },
+        " Compliments": {
+            "Call": "53",
+            "Email": "22",
+            "Fax": "0",
+            "Apps": "35",
+            "SMS": "0",
+            "Web": "5"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2019",
+            "Month": "Feb"
+        },
+        "No._of_calls_received": "283797",
+        "No._of_abandoned_calls": "14802",
+        "%_of_calls_answered_within_12seconds": "70%",
+        "Average_call_handling_time(seconds)": "389",
+        "No._of_non_voice": {
+            "No._of_emails": "23710",
+            "No._of_faxes": "545",
+            "No._of_Apps-inbound": "13310",
+            "No._of_SMS": "1672",
+            "No._of_web-inbound": "3575"
+        },
+        "Unique_page_view_1823_web": "224556",
+        " Enquiries": {
+            "Call": "125484",
+            "Email": "2153",
+            "Fax": "35",
+            "Apps": "681",
+            "Chatbot": "",
+            "Voicebot": "",
+            "SMS": "142",
+            "Web": "349"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "18567",
+            "Email": "4085",
+            "Fax": "267",
+            "Apps": "9466",
+            "Voicebot": "",
+            "SMS": "108",
+            "Web": "2594"
+        },
+        " Suggestions": {
+            "Call": "339",
+            "Email": "66",
+            "Fax": "2",
+            "Apps": "64",
+            "SMS": "0",
+            "Web": "22"
+        },
+        " Compliments": {
+            "Call": "44",
+            "Email": "20",
+            "Fax": "1",
+            "Apps": "27",
+            "SMS": "0",
+            "Web": "11"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2019",
+            "Month": "Mar"
+        },
+        "No._of_calls_received": "466219",
+        "No._of_abandoned_calls": "25874",
+        "%_of_calls_answered_within_12seconds": "67%",
+        "Average_call_handling_time(seconds)": "411",
+        "No._of_non_voice": {
+            "No._of_emails": "31793",
+            "No._of_faxes": "688",
+            "No._of_Apps-inbound": "17113",
+            "No._of_SMS": "2392",
+            "No._of_web-inbound": "4800"
+        },
+        "Unique_page_view_1823_web": "252713",
+        " Enquiries": {
+            "Call": "134507",
+            "Email": "2815",
+            "Fax": "75",
+            "Apps": "1001",
+            "Chatbot": "",
+            "Voicebot": "",
+            "SMS": "198",
+            "Web": "488"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "22333",
+            "Email": "5198",
+            "Fax": "432",
+            "Apps": "11562",
+            "Voicebot": "",
+            "SMS": "189",
+            "Web": "3406"
+        },
+        " Suggestions": {
+            "Call": "380",
+            "Email": "90",
+            "Fax": "8",
+            "Apps": "69",
+            "SMS": "0",
+            "Web": "42"
+        },
+        " Compliments": {
+            "Call": "53",
+            "Email": "35",
+            "Fax": "3",
+            "Apps": "45",
+            "SMS": "0",
+            "Web": "10"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2019",
+            "Month": "Apr"
+        },
+        "No._of_calls_received": "738963",
+        "No._of_abandoned_calls": "40261",
+        "%_of_calls_answered_within_12seconds": "62%",
+        "Average_call_handling_time(seconds)": "455",
+        "No._of_non_voice": {
+            "No._of_emails": "27336",
+            "No._of_faxes": "674",
+            "No._of_Apps-inbound": "17696",
+            "No._of_SMS": "2358",
+            "No._of_web-inbound": "4549"
+        },
+        "Unique_page_view_1823_web": "247381",
+        " Enquiries": {
+            "Call": "129643",
+            "Email": "2775",
+            "Fax": "42",
+            "Apps": "1490",
+            "Chatbot": "",
+            "Voicebot": "",
+            "SMS": "217",
+            "Web": "642"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "21263",
+            "Email": "5088",
+            "Fax": "369",
+            "Apps": "11446",
+            "Voicebot": "",
+            "SMS": "141",
+            "Web": "3262"
+        },
+        " Suggestions": {
+            "Call": "320",
+            "Email": "73",
+            "Fax": "1",
+            "Apps": "64",
+            "SMS": "1",
+            "Web": "27"
+        },
+        " Compliments": {
+            "Call": "56",
+            "Email": "28",
+            "Fax": "2",
+            "Apps": "45",
+            "SMS": "0",
+            "Web": "8"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2019",
+            "Month": "May"
+        },
+        "No._of_calls_received": "463534",
+        "No._of_abandoned_calls": "55282",
+        "%_of_calls_answered_within_12seconds": "65%",
+        "Average_call_handling_time(seconds)": "451",
+        "No._of_non_voice": {
+            "No._of_emails": "29466",
+            "No._of_faxes": "602",
+            "No._of_Apps-inbound": "19528",
+            "No._of_SMS": "3132",
+            "No._of_web-inbound": "5468"
+        },
+        "Unique_page_view_1823_web": "291746",
+        " Enquiries": {
+            "Call": "134023",
+            "Email": "3319",
+            "Fax": "49",
+            "Apps": "1726",
+            "Chatbot": "",
+            "Voicebot": "",
+            "SMS": "338",
+            "Web": "636"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "22974",
+            "Email": "6051",
+            "Fax": "345",
+            "Apps": "13290",
+            "Voicebot": "",
+            "SMS": "209",
+            "Web": "4234"
+        },
+        " Suggestions": {
+            "Call": "350",
+            "Email": "95",
+            "Fax": "4",
+            "Apps": "120",
+            "SMS": "0",
+            "Web": "30"
+        },
+        " Compliments": {
+            "Call": "48",
+            "Email": "30",
+            "Fax": "1",
+            "Apps": "45",
+            "SMS": "3",
+            "Web": "18"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2019",
+            "Month": "June"
+        },
+        "No._of_calls_received": "363338",
+        "No._of_abandoned_calls": "24015",
+        "%_of_calls_answered_within_12seconds": "68%",
+        "Average_call_handling_time(seconds)": "472",
+        "No._of_non_voice": {
+            "No._of_emails": "28836",
+            "No._of_faxes": "599",
+            "No._of_Apps-inbound": "18772",
+            "No._of_SMS": "2592",
+            "No._of_web-inbound": "5968"
+        },
+        "Unique_page_view_1823_web": "217095",
+        " Enquiries": {
+            "Call": "117042",
+            "Email": "2947",
+            "Fax": "54",
+            "Apps": "2213",
+            "Chatbot": "",
+            "Voicebot": "",
+            "SMS": "369",
+            "Web": "530"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "24531",
+            "Email": "5838",
+            "Fax": "388",
+            "Apps": "12480",
+            "Voicebot": "",
+            "SMS": "164",
+            "Web": "4284"
+        },
+        " Suggestions": {
+            "Call": "445",
+            "Email": "69",
+            "Fax": "14",
+            "Apps": "73",
+            "SMS": "0",
+            "Web": "26"
+        },
+        " Compliments": {
+            "Call": "54",
+            "Email": "36",
+            "Fax": "1",
+            "Apps": "38",
+            "SMS": "0",
+            "Web": "15"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2019",
+            "Month": "July"
+        },
+        "No._of_calls_received": "306922",
+        "No._of_abandoned_calls": "18637",
+        "%_of_calls_answered_within_12seconds": "66%",
+        "Average_call_handling_time(seconds)": "476",
+        "No._of_non_voice": {
+            "No._of_emails": "32304",
+            "No._of_faxes": "643",
+            "No._of_Apps-inbound": "25481",
+            "No._of_SMS": "2444",
+            "No._of_web-inbound": "6834"
+        },
+        "Unique_page_view_1823_web": "189233",
+        " Enquiries": {
+            "Call": "137097",
+            "Email": "2643",
+            "Fax": "55",
+            "Apps": "988",
+            "Chatbot": "",
+            "Voicebot": "",
+            "SMS": "193",
+            "Web": "388"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "31110",
+            "Email": "7058",
+            "Fax": "370",
+            "Apps": "16401",
+            "Voicebot": "",
+            "SMS": "197",
+            "Web": "4853"
+        },
+        " Suggestions": {
+            "Call": "594",
+            "Email": "163",
+            "Fax": "6",
+            "Apps": "122",
+            "SMS": "0",
+            "Web": "25"
+        },
+        " Compliments": {
+            "Call": "98",
+            "Email": "323",
+            "Fax": "2",
+            "Apps": "68",
+            "SMS": "0",
+            "Web": "152"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2019",
+            "Month": "Aug"
+        },
+        "No._of_calls_received": "344844",
+        "No._of_abandoned_calls": "17991",
+        "%_of_calls_answered_within_12seconds": "69%",
+        "Average_call_handling_time(seconds)": "441",
+        "No._of_non_voice": {
+            "No._of_emails": "31946",
+            "No._of_faxes": "570",
+            "No._of_Apps-inbound": "18606",
+            "No._of_SMS": "2505",
+            "No._of_web-inbound": "5404"
+        },
+        "Unique_page_view_1823_web": "238446",
+        " Enquiries": {
+            "Call": "148121",
+            "Email": "2913",
+            "Fax": "51",
+            "Apps": "1681",
+            "Chatbot": "",
+            "Voicebot": "",
+            "SMS": "247",
+            "Web": "370"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "26595",
+            "Email": "6878",
+            "Fax": "303",
+            "Apps": "14526",
+            "Voicebot": "",
+            "SMS": "152",
+            "Web": "4881"
+        },
+        " Suggestions": {
+            "Call": "876",
+            "Email": "213",
+            "Fax": "1",
+            "Apps": "95",
+            "SMS": "1",
+            "Web": "31"
+        },
+        " Compliments": {
+            "Call": "85",
+            "Email": "75",
+            "Fax": "1",
+            "Apps": "71",
+            "SMS": "2",
+            "Web": "58"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2019",
+            "Month": "Sept"
+        },
+        "No._of_calls_received": "302489",
+        "No._of_abandoned_calls": "14265",
+        "%_of_calls_answered_within_12seconds": "76%",
+        "Average_call_handling_time(seconds)": "448",
+        "No._of_non_voice": {
+            "No._of_emails": "30413",
+            "No._of_faxes": "626",
+            "No._of_Apps-inbound": "18242",
+            "No._of_SMS": "2199",
+            "No._of_web-inbound": "5398"
+        },
+        "Unique_page_view_1823_web": "171861",
+        " Enquiries": {
+            "Call": "131319",
+            "Email": "2333",
+            "Fax": "40",
+            "Apps": "1176",
+            "Chatbot": "",
+            "Voicebot": "",
+            "SMS": "213",
+            "Web": "290"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "25313",
+            "Email": "6302",
+            "Fax": "302",
+            "Apps": "13593",
+            "Voicebot": "",
+            "SMS": "102",
+            "Web": "4239"
+        },
+        " Suggestions": {
+            "Call": "723",
+            "Email": "63",
+            "Fax": "3",
+            "Apps": "80",
+            "SMS": "0",
+            "Web": "39"
+        },
+        " Compliments": {
+            "Call": "75",
+            "Email": "65",
+            "Fax": "3",
+            "Apps": "59",
+            "SMS": "1",
+            "Web": "15"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2019",
+            "Month": "Oct"
+        },
+        "No._of_calls_received": "324288",
+        "No._of_abandoned_calls": "23048",
+        "%_of_calls_answered_within_12seconds": "71%",
+        "Average_call_handling_time(seconds)": "441",
+        "No._of_non_voice": {
+            "No._of_emails": "38292",
+            "No._of_faxes": "596",
+            "No._of_Apps-inbound": "17914",
+            "No._of_SMS": "2153",
+            "No._of_web-inbound": "6272"
+        },
+        "Unique_page_view_1823_web": "213298",
+        " Enquiries": {
+            "Call": "138502",
+            "Email": "2577",
+            "Fax": "50",
+            "Apps": "875",
+            "Chatbot": "",
+            "Voicebot": "",
+            "SMS": "182",
+            "Web": "334"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "25163",
+            "Email": "8801",
+            "Fax": "270",
+            "Apps": "13015",
+            "Voicebot": "",
+            "SMS": "90",
+            "Web": "5209"
+        },
+        " Suggestions": {
+            "Call": "903",
+            "Email": "116",
+            "Fax": "7",
+            "Apps": "63",
+            "SMS": "0",
+            "Web": "25"
+        },
+        " Compliments": {
+            "Call": "92",
+            "Email": "87",
+            "Fax": "1",
+            "Apps": "177",
+            "SMS": "1",
+            "Web": "27"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2019",
+            "Month": "Nov"
+        },
+        "No._of_calls_received": "284479",
+        "No._of_abandoned_calls": "26389",
+        "%_of_calls_answered_within_12seconds": "66%",
+        "Average_call_handling_time(seconds)": "442",
+        "No._of_non_voice": {
+            "No._of_emails": "47225",
+            "No._of_faxes": "608",
+            "No._of_Apps-inbound": "19043",
+            "No._of_SMS": "1954",
+            "No._of_web-inbound": "6402"
+        },
+        "Unique_page_view_1823_web": "188717",
+        " Enquiries": {
+            "Call": "120377",
+            "Email": "2266",
+            "Fax": "42",
+            "Apps": "762",
+            "Chatbot": "",
+            "Voicebot": "",
+            "SMS": "186",
+            "Web": "333"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "23603",
+            "Email": "8701",
+            "Fax": "374",
+            "Apps": "13490",
+            "Voicebot": "",
+            "SMS": "72",
+            "Web": "5065"
+        },
+        " Suggestions": {
+            "Call": "800",
+            "Email": "93",
+            "Fax": "5",
+            "Apps": "265",
+            "SMS": "1",
+            "Web": "37"
+        },
+        " Compliments": {
+            "Call": "81",
+            "Email": "43",
+            "Fax": "2",
+            "Apps": "61",
+            "SMS": "2",
+            "Web": "128"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2019",
+            "Month": "Dec"
+        },
+        "No._of_calls_received": "258437",
+        "No._of_abandoned_calls": "18481",
+        "%_of_calls_answered_within_12seconds": "68%",
+        "Average_call_handling_time(seconds)": "428",
+        "No._of_non_voice": {
+            "No._of_emails": "31061",
+            "No._of_faxes": "533",
+            "No._of_Apps-inbound": "17957",
+            "No._of_SMS": "2229",
+            "No._of_web-inbound": "5264"
+        },
+        "Unique_page_view_1823_web": "232895",
+        " Enquiries": {
+            "Call": "118032",
+            "Email": "2133",
+            "Fax": "34",
+            "Apps": "668",
+            "Chatbot": "",
+            "Voicebot": "",
+            "SMS": "153",
+            "Web": "359"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "22039",
+            "Email": "9316",
+            "Fax": "202",
+            "Apps": "12990",
+            "Voicebot": "",
+            "SMS": "133",
+            "Web": "4955"
+        },
+        " Suggestions": {
+            "Call": "588",
+            "Email": "51",
+            "Fax": "3",
+            "Apps": "57",
+            "SMS": "0",
+            "Web": "24"
+        },
+        " Compliments": {
+            "Call": "69",
+            "Email": "42",
+            "Fax": "5",
+            "Apps": "35",
+            "SMS": "2",
+            "Web": "15"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2020",
+            "Month": "Jan"
+        },
+        "No._of_calls_received": "286833",
+        "No._of_abandoned_calls": "24210",
+        "%_of_calls_answered_within_12seconds": "65%",
+        "Average_call_handling_time(seconds)": "421",
+        "No._of_non_voice": {
+            "No._of_emails": "27638",
+            "No._of_faxes": "407",
+            "No._of_Apps-inbound": "18058",
+            "No._of_SMS": "2162",
+            "No._of_web-inbound": "5357"
+        },
+        "Unique_page_view_1823_web": "301295",
+        " Enquiries": {
+            "Call": "104377",
+            "Email": "1721",
+            "Fax": "30",
+            "Apps": "522",
+            "Chatbot": "202",
+            "Voicebot": "773",
+            "SMS": "112",
+            "Web": "304"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "21394",
+            "Email": "9132",
+            "Fax": "176",
+            "Apps": "10366",
+            "Voicebot": "",
+            "SMS": "103",
+            "Web": "3700"
+        },
+        " Suggestions": {
+            "Call": "562",
+            "Email": "63",
+            "Fax": "12",
+            "Apps": "39",
+            "SMS": "1",
+            "Web": "13"
+        },
+        " Compliments": {
+            "Call": "63",
+            "Email": "28",
+            "Fax": "3",
+            "Apps": "36",
+            "SMS": "2",
+            "Web": "10"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2020",
+            "Month": "Feb"
+        },
+        "No._of_calls_received": "333046",
+        "No._of_abandoned_calls": "52290",
+        "%_of_calls_answered_within_12seconds": "52%",
+        "Average_call_handling_time(seconds)": "442",
+        "No._of_non_voice": {
+            "No._of_emails": "6821",
+            "No._of_faxes": "159",
+            "No._of_Apps-inbound": "4131",
+            "No._of_SMS": "1517",
+            "No._of_web-inbound": "1480"
+        },
+        "Unique_page_view_1823_web": "256991",
+        " Enquiries": {
+            "Call": "29631",
+            "Email": "1503",
+            "Fax": "19",
+            "Apps": "1193",
+            "Chatbot": "272",
+            "Voicebot": "277",
+            "SMS": "92",
+            "Web": "361"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "6688",
+            "Email": "2539",
+            "Fax": "67",
+            "Apps": "4601",
+            "Voicebot": "",
+            "SMS": "54",
+            "Web": "1895"
+        },
+        " Suggestions": {
+            "Call": "321",
+            "Email": "63",
+            "Fax": "2",
+            "Apps": "43",
+            "SMS": "0",
+            "Web": "10"
+        },
+        " Compliments": {
+            "Call": "16",
+            "Email": "12",
+            "Fax": "0",
+            "Apps": "14",
+            "SMS": "1",
+            "Web": "7"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2020",
+            "Month": "Mar"
+        },
+        "No._of_calls_received": "397379",
+        "No._of_abandoned_calls": "49128",
+        "%_of_calls_answered_within_12seconds": "32%",
+        "Average_call_handling_time(seconds)": "478",
+        "No._of_non_voice": {
+            "No._of_emails": "33605",
+            "No._of_faxes": "481",
+            "No._of_Apps-inbound": "12170",
+            "No._of_SMS": "2724",
+            "No._of_web-inbound": "5336"
+        },
+        "Unique_page_view_1823_web": "278856",
+        " Enquiries": {
+            "Call": "86435",
+            "Email": "3475",
+            "Fax": "114",
+            "Apps": "879",
+            "Chatbot": "143",
+            "Voicebot": "206",
+            "SMS": "180",
+            "Web": "933"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "13853",
+            "Email": "5979",
+            "Fax": "228",
+            "Apps": "9491",
+            "Voicebot": "",
+            "SMS": "139",
+            "Web": "4278"
+        },
+        " Suggestions": {
+            "Call": "465",
+            "Email": "88",
+            "Fax": "16",
+            "Apps": "33",
+            "SMS": "0",
+            "Web": "20"
+        },
+        " Compliments": {
+            "Call": "50",
+            "Email": "20",
+            "Fax": "0",
+            "Apps": "43",
+            "SMS": "0",
+            "Web": "22"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2020",
+            "Month": "Apr"
+        },
+        "No._of_calls_received": "396246",
+        "No._of_abandoned_calls": "22621",
+        "%_of_calls_answered_within_12seconds": "57%",
+        "Average_call_handling_time(seconds)": "464",
+        "No._of_non_voice": {
+            "No._of_emails": "0",
+            "No._of_faxes": "0",
+            "No._of_Apps-inbound": "0",
+            "No._of_SMS": "0",
+            "No._of_web-inbound": "0"
+        },
+        "Unique_page_view_1823_web": "293788",
+        " Enquiries": {
+            "Call": "84014",
+            "Email": "0",
+            "Fax": "0",
+            "Apps": "0",
+            "Chatbot": "145",
+            "Voicebot": "76",
+            "SMS": "0",
+            "Web": "0"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "19671",
+            "Email": "0",
+            "Fax": "0",
+            "Apps": "0",
+            "Voicebot": "",
+            "SMS": "0",
+            "Web": "0"
+        },
+        " Suggestions": {
+            "Call": "469",
+            "Email": "0",
+            "Fax": "0",
+            "Apps": "0",
+            "SMS": "0",
+            "Web": "0"
+        },
+        " Compliments": {
+            "Call": "41",
+            "Email": "0",
+            "Fax": "0",
+            "Apps": "0",
+            "SMS": "0",
+            "Web": "0"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2020",
+            "Month": "May"
+        },
+        "No._of_calls_received": "403636",
+        "No._of_abandoned_calls": "25438",
+        "%_of_calls_answered_within_12seconds": "71%",
+        "Average_call_handling_time(seconds)": "421",
+        "No._of_non_voice": {
+            "No._of_emails": "29652",
+            "No._of_faxes": "566",
+            "No._of_Apps-inbound": "19004",
+            "No._of_SMS": "2629",
+            "No._of_web-inbound": "7476"
+        },
+        "Unique_page_view_1823_web": "282713",
+        " Enquiries": {
+            "Call": "177680",
+            "Email": "3372",
+            "Fax": "53",
+            "Apps": "773",
+            "Chatbot": "7209",
+            "Voicebot": "134",
+            "SMS": "178",
+            "Web": "544"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "26388",
+            "Email": "6408",
+            "Fax": "205",
+            "Apps": "13767",
+            "Voicebot": "",
+            "SMS": "127",
+            "Web": "5535"
+        },
+        " Suggestions": {
+            "Call": "759",
+            "Email": "56",
+            "Fax": "2",
+            "Apps": "34",
+            "SMS": "0",
+            "Web": "104"
+        },
+        " Compliments": {
+            "Call": "96",
+            "Email": "20",
+            "Fax": "2",
+            "Apps": "34",
+            "SMS": "0",
+            "Web": "15"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2020",
+            "Month": "June"
+        },
+        "No._of_calls_received": "505200",
+        "No._of_abandoned_calls": "91540",
+        "%_of_calls_answered_within_12seconds": "57%",
+        "Average_call_handling_time(seconds)": "462",
+        "No._of_non_voice": {
+            "No._of_emails": "32155",
+            "No._of_faxes": "497",
+            "No._of_Apps-inbound": "22212",
+            "No._of_SMS": "3689",
+            "No._of_web-inbound": "8356"
+        },
+        "Unique_page_view_1823_web": "364074",
+        " Enquiries": {
+            "Call": "232077",
+            "Email": "2997",
+            "Fax": "37",
+            "Apps": "762",
+            "Chatbot": "10107",
+            "Voicebot": "286",
+            "SMS": "204",
+            "Web": "557"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "27823",
+            "Email": "7950",
+            "Fax": "246",
+            "Apps": "14829",
+            "Voicebot": "",
+            "SMS": "167",
+            "Web": "6306"
+        },
+        " Suggestions": {
+            "Call": "668",
+            "Email": "54",
+            "Fax": "2",
+            "Apps": "51",
+            "SMS": "1",
+            "Web": "45"
+        },
+        " Compliments": {
+            "Call": "83",
+            "Email": "38",
+            "Fax": "1",
+            "Apps": "36",
+            "SMS": "1",
+            "Web": "21"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2020",
+            "Month": "July"
+        },
+        "No._of_calls_received": "507951",
+        "No._of_abandoned_calls": "90504",
+        "%_of_calls_answered_within_12seconds": "49%",
+        "Average_call_handling_time(seconds)": "507",
+        "No._of_non_voice": {
+            "No._of_emails": "18280",
+            "No._of_faxes": "367",
+            "No._of_Apps-inbound": "13044",
+            "No._of_SMS": "2986",
+            "No._of_web-inbound": "5265"
+        },
+        "Unique_page_view_1823_web": "400675",
+        " Enquiries": {
+            "Call": "187207",
+            "Email": "2153",
+            "Fax": "44",
+            "Apps": "577",
+            "Chatbot": "6062",
+            "Voicebot": "150",
+            "SMS": "157",
+            "Web": "454"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "23401",
+            "Email": "5610",
+            "Fax": "190",
+            "Apps": "12369",
+            "Voicebot": "",
+            "SMS": "150",
+            "Web": "5802"
+        },
+        " Suggestions": {
+            "Call": "1026",
+            "Email": "52",
+            "Fax": "0",
+            "Apps": "43",
+            "SMS": "0",
+            "Web": "24"
+        },
+        " Compliments": {
+            "Call": "59",
+            "Email": "25",
+            "Fax": "0",
+            "Apps": "24",
+            "SMS": "0",
+            "Web": "16"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2020",
+            "Month": "Aug"
+        },
+        "No._of_calls_received": "395215",
+        "No._of_abandoned_calls": "20905",
+        "%_of_calls_answered_within_12seconds": "62%",
+        "Average_call_handling_time(seconds)": "486",
+        "No._of_non_voice": {
+            "No._of_emails": "8975",
+            "No._of_faxes": "212",
+            "No._of_Apps-inbound": "4130",
+            "No._of_SMS": "1655",
+            "No._of_web-inbound": "1909"
+        },
+        "Unique_page_view_1823_web": "305140",
+        " Enquiries": {
+            "Call": "132585",
+            "Email": "848",
+            "Fax": "28",
+            "Apps": "139",
+            "Chatbot": "2037",
+            "Voicebot": "36",
+            "SMS": "77",
+            "Web": "99"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "24417",
+            "Email": "2030",
+            "Fax": "135",
+            "Apps": "3017",
+            "Voicebot": "",
+            "SMS": "37",
+            "Web": "1331"
+        },
+        " Suggestions": {
+            "Call": "683",
+            "Email": "17",
+            "Fax": "1",
+            "Apps": "5",
+            "SMS": "0",
+            "Web": "7"
+        },
+        " Compliments": {
+            "Call": "56",
+            "Email": "5",
+            "Fax": "0",
+            "Apps": "3",
+            "SMS": "0",
+            "Web": "10"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2020",
+            "Month": "Sept"
+        },
+        "No._of_calls_received": "379975",
+        "No._of_abandoned_calls": "20740",
+        "%_of_calls_answered_within_12seconds": "64.95%",
+        "Average_call_handling_time(seconds)": "408",
+        "No._of_non_voice": {
+            "No._of_emails": "27170",
+            "No._of_faxes": "520",
+            "No._of_Apps-inbound": "15285",
+            "No._of_SMS": "2299",
+            "No._of_web-inbound": "6289"
+        },
+        "Unique_page_view_1823_web": "305106",
+        " Enquiries": {
+            "Call": "245041",
+            "Email": "2756",
+            "Fax": "59",
+            "Apps": "519",
+            "Chatbot": "1319",
+            "Voicebot": "217",
+            "SMS": "207",
+            "Web": "476"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "28514",
+            "Email": "6060",
+            "Fax": "206",
+            "Apps": "11060",
+            "Voicebot": "53",
+            "SMS": "158",
+            "Web": "5081"
+        },
+        " Suggestions": {
+            "Call": "909",
+            "Email": "79",
+            "Fax": "3",
+            "Apps": "42",
+            "SMS": "0",
+            "Web": "27"
+        },
+        " Compliments": {
+            "Call": "77",
+            "Email": "22",
+            "Fax": "5",
+            "Apps": "26",
+            "SMS": "0",
+            "Web": "20"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2020",
+            "Month": "Oct"
+        },
+        "No._of_calls_received": "314937",
+        "No._of_abandoned_calls": "25238",
+        "%_of_calls_answered_within_12seconds": "70%",
+        "Average_call_handling_time(seconds)": "417",
+        "No._of_non_voice": {
+            "No._of_emails": "25670",
+            "No._of_faxes": "557",
+            "No._of_Apps-inbound": "18504",
+            "No._of_SMS": "2327",
+            "No._of_web-inbound": "6057"
+        },
+        "Unique_page_view_1823_web": "272491",
+        " Enquiries": {
+            "Call": "182402",
+            "Email": "2291",
+            "Fax": "48",
+            "Apps": "506",
+            "Chatbot": "653",
+            "Voicebot": "77",
+            "SMS": "213",
+            "Web": "362"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "26269",
+            "Email": "5691",
+            "Fax": "201",
+            "Apps": "13216",
+            "Voicebot": "147",
+            "SMS": "97",
+            "Web": "5173"
+        },
+        " Suggestions": {
+            "Call": "519",
+            "Email": "50",
+            "Fax": "1",
+            "Apps": "49",
+            "SMS": "0",
+            "Web": "32"
+        },
+        " Compliments": {
+            "Call": "103",
+            "Email": "41",
+            "Fax": "1",
+            "Apps": "35",
+            "SMS": "1",
+            "Web": "19"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2020",
+            "Month": "Nov"
+        },
+        "No._of_calls_received": "330706",
+        "No._of_abandoned_calls": "29616",
+        "%_of_calls_answered_within_12seconds": "70%",
+        "Average_call_handling_time(seconds)": "415",
+        "No._of_non_voice": {
+            "No._of_emails": "30659",
+            "No._of_faxes": "605",
+            "No._of_Apps-inbound": "17699",
+            "No._of_SMS": "2192",
+            "No._of_web-inbound": "5999"
+        },
+        "Unique_page_view_1823_web": "254012",
+        " Enquiries": {
+            "Call": "199013",
+            "Email": "2569",
+            "Fax": "56",
+            "Apps": "604",
+            "Chatbot": "487",
+            "Voicebot": "96",
+            "SMS": "203",
+            "Web": "343"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "24397",
+            "Email": "5490",
+            "Fax": "252",
+            "Apps": "12515",
+            "Voicebot": "111",
+            "SMS": "105",
+            "Web": "5344"
+        },
+        " Suggestions": {
+            "Call": "767",
+            "Email": "70",
+            "Fax": "0",
+            "Apps": "54",
+            "SMS": "0",
+            "Web": "29"
+        },
+        " Compliments": {
+            "Call": "98",
+            "Email": "51",
+            "Fax": "4",
+            "Apps": "51",
+            "SMS": "1",
+            "Web": "21"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2020",
+            "Month": "Dec"
+        },
+        "No._of_calls_received": "492648",
+        "No._of_abandoned_calls": "23795",
+        "%_of_calls_answered_within_12seconds": "70%",
+        "Average_call_handling_time(seconds)": "464",
+        "No._of_non_voice": {
+            "No._of_emails": "1005",
+            "No._of_faxes": "88",
+            "No._of_Apps-inbound": "710",
+            "No._of_SMS": "100",
+            "No._of_web-inbound": "260"
+        },
+        "Unique_page_view_1823_web": "286080",
+        " Enquiries": {
+            "Call": "132326",
+            "Email": "452",
+            "Fax": "16",
+            "Apps": "70",
+            "Chatbot": "608",
+            "Voicebot": "151",
+            "SMS": "46",
+            "Web": "45"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "20724",
+            "Email": "1327",
+            "Fax": "111",
+            "Apps": "1609",
+            "Voicebot": "171",
+            "SMS": "15",
+            "Web": "768"
+        },
+        " Suggestions": {
+            "Call": "867",
+            "Email": "22",
+            "Fax": "4",
+            "Apps": "16",
+            "SMS": "0",
+            "Web": "8"
+        },
+        " Compliments": {
+            "Call": "57",
+            "Email": "5",
+            "Fax": "0",
+            "Apps": "11",
+            "SMS": "0",
+            "Web": "0"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2021",
+            "Month": "Jan"
+        },
+        "No._of_calls_received": "295244",
+        "No._of_abandoned_calls": "6285",
+        "%_of_calls_answered_within_12seconds": "82%",
+        "Average_call_handling_time(seconds)": "415",
+        "No._of_non_voice": {
+            "No._of_emails": "2400",
+            "No._of_faxes": "72",
+            "No._of_Apps-inbound": "1613",
+            "No._of_SMS": "127",
+            "No._of_web-inbound": "579"
+        },
+        "Unique_page_view_1823_web": "241315",
+        " Enquiries": {
+            "Call": "157899",
+            "Email": "416",
+            "Fax": "7",
+            "Apps": "46",
+            "Chatbot": "73",
+            "Voicebot": "95",
+            "SMS": "43",
+            "Web": "39"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "26957",
+            "Email": "908",
+            "Fax": "115",
+            "Apps": "1025",
+            "Voicebot": "182",
+            "SMS": "13",
+            "Web": "412"
+        },
+        " Suggestions": {
+            "Call": "843",
+            "Email": "11",
+            "Fax": "0",
+            "Apps": "3",
+            "SMS": "0",
+            "Web": "2"
+        },
+        " Compliments": {
+            "Call": "70",
+            "Email": "6",
+            "Fax": "1",
+            "Apps": "3",
+            "SMS": "0",
+            "Web": "1"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2021",
+            "Month": "Feb"
+        },
+        "No._of_calls_received": "290777",
+        "No._of_abandoned_calls": "21863",
+        "%_of_calls_answered_within_12seconds": "75.23%",
+        "Average_call_handling_time(seconds)": "440",
+        "No._of_non_voice": {
+            "No._of_emails": "20946",
+            "No._of_faxes": "306",
+            "No._of_Apps-inbound": "10437",
+            "No._of_SMS": "1467",
+            "No._of_web-inbound": "4371"
+        },
+        "Unique_page_view_1823_web": "210097",
+        " Enquiries": {
+            "Call": "170888",
+            "Email": "2419",
+            "Fax": "39",
+            "Apps": "395",
+            "Chatbot": "66",
+            "Voicebot": "80",
+            "SMS": "142",
+            "Web": "309"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "19826",
+            "Email": "4111",
+            "Fax": "127",
+            "Apps": "7855",
+            "Voicebot": "76",
+            "SMS": "95",
+            "Web": "3563"
+        },
+        " Suggestions": {
+            "Call": "914",
+            "Email": "57",
+            "Fax": "0",
+            "Apps": "72",
+            "SMS": "0",
+            "Web": "28"
+        },
+        " Compliments": {
+            "Call": "54",
+            "Email": "20",
+            "Fax": "1",
+            "Apps": "33",
+            "SMS": "0",
+            "Web": "8"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2021",
+            "Month": "Mar"
+        },
+        "No._of_calls_received": "428605",
+        "No._of_abandoned_calls": "36724",
+        "%_of_calls_answered_within_12seconds": "75.63%",
+        "Average_call_handling_time(seconds)": "445",
+        "No._of_non_voice": {
+            "No._of_emails": "27798",
+            "No._of_faxes": "447",
+            "No._of_Apps-inbound": "13949",
+            "No._of_SMS": "3166",
+            "No._of_web-inbound": "6120"
+        },
+        "Unique_page_view_1823_web": "262500",
+        " Enquiries": {
+            "Call": "234306",
+            "Email": "2983",
+            "Fax": "59",
+            "Apps": "591",
+            "Chatbot": "61",
+            "Voicebot": "131",
+            "SMS": "222",
+            "Web": "452"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "26400",
+            "Email": "6155",
+            "Fax": "192",
+            "Apps": "10747",
+            "Voicebot": "73",
+            "SMS": "162",
+            "Web": "5605"
+        },
+        " Suggestions": {
+            "Call": "1439",
+            "Email": "68",
+            "Fax": "2",
+            "Apps": "73",
+            "SMS": "1",
+            "Web": "30"
+        },
+        " Compliments": {
+            "Call": "88",
+            "Email": "31",
+            "Fax": "1",
+            "Apps": "38",
+            "SMS": "2",
+            "Web": "24"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2021",
+            "Month": "Apr"
+        },
+        "No._of_calls_received": "391747",
+        "No._of_abandoned_calls": "33247",
+        "%_of_calls_answered_within_12seconds": "71.79%",
+        "Average_call_handling_time(seconds)": "459",
+        "No._of_non_voice": {
+            "No._of_emails": "27131",
+            "No._of_faxes": "506",
+            "No._of_Apps-inbound": "14633",
+            "No._of_SMS": "2359",
+            "No._of_web-inbound": "6839"
+        },
+        "Unique_page_view_1823_web": "242650",
+        " Enquiries": {
+            "Call": "186791",
+            "Email": "2420",
+            "Fax": "44",
+            "Apps": "524",
+            "Chatbot": "93",
+            "Voicebot": "103",
+            "SMS": "186",
+            "Web": "446"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "24906",
+            "Email": "5474",
+            "Fax": "186",
+            "Apps": "10479",
+            "Voicebot": "57",
+            "SMS": "82",
+            "Web": "5704"
+        },
+        " Suggestions": {
+            "Call": "1094",
+            "Email": "67",
+            "Fax": "4",
+            "Apps": "69",
+            "SMS": "0",
+            "Web": "42"
+        },
+        " Compliments": {
+            "Call": "87",
+            "Email": "36",
+            "Fax": "0",
+            "Apps": "50",
+            "SMS": "3",
+            "Web": "23"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2021",
+            "Month": "May"
+        },
+        "No._of_calls_received": "530410",
+        "No._of_abandoned_calls": "50992",
+        "%_of_calls_answered_within_12seconds": "70%",
+        "Average_call_handling_time(seconds)": "467",
+        "No._of_non_voice": {
+            "No._of_emails": "28678",
+            "No._of_faxes": "687",
+            "No._of_Apps-inbound": "17919",
+            "No._of_SMS": "2975",
+            "No._of_web-inbound": "7839"
+        },
+        "Unique_page_view_1823_web": "277203",
+        " Enquiries": {
+            "Call": "189457",
+            "Email": "2665",
+            "Fax": "42",
+            "Apps": "686",
+            "Chatbot": "76",
+            "Voicebot": "134",
+            "SMS": "198",
+            "Web": "527"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "26216",
+            "Email": "6274",
+            "Fax": "198",
+            "Apps": "12109",
+            "Voicebot": "115",
+            "SMS": "133",
+            "Web": "6441"
+        },
+        " Suggestions": {
+            "Call": "1147",
+            "Email": "76",
+            "Fax": "7",
+            "Apps": "116",
+            "SMS": "1",
+            "Web": "63"
+        },
+        " Compliments": {
+            "Call": "73",
+            "Email": "31",
+            "Fax": "1",
+            "Apps": "56",
+            "SMS": "1",
+            "Web": "21"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2021",
+            "Month": "June"
+        },
+        "No._of_calls_received": "422149",
+        "No._of_abandoned_calls": "37035",
+        "%_of_calls_answered_within_12seconds": "74%",
+        "Average_call_handling_time(seconds)": "477",
+        "No._of_non_voice": {
+            "No._of_emails": "27590",
+            "No._of_faxes": "553",
+            "No._of_Apps-inbound": "18829",
+            "No._of_SMS": "2601",
+            "No._of_web-inbound": "7841"
+        },
+        "Unique_page_view_1823_web": "253335",
+        " Enquiries": {
+            "Call": "193937",
+            "Email": "2582",
+            "Fax": "37",
+            "Apps": "658",
+            "Chatbot": "64",
+            "Voicebot": "147",
+            "SMS": "176",
+            "Web": "454"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "24774",
+            "Email": "6475",
+            "Fax": "219",
+            "Apps": "14004",
+            "Voicebot": "135",
+            "SMS": "153",
+            "Web": "6983"
+        },
+        " Suggestions": {
+            "Call": "959",
+            "Email": "48",
+            "Fax": "12",
+            "Apps": "100",
+            "SMS": "0",
+            "Web": "41"
+        },
+        " Compliments": {
+            "Call": "81",
+            "Email": "32",
+            "Fax": "1",
+            "Apps": "57",
+            "SMS": "1",
+            "Web": "21"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2021",
+            "Month": "July"
+        },
+        "No._of_calls_received": "456345",
+        "No._of_abandoned_calls": "42028",
+        "%_of_calls_answered_within_12seconds": "75%",
+        "Average_call_handling_time(seconds)": "464",
+        "No._of_non_voice": {
+            "No._of_emails": "27440",
+            "No._of_faxes": "519",
+            "No._of_Apps-inbound": "18757",
+            "No._of_SMS": "2495",
+            "No._of_web-inbound": "7829"
+        },
+        "Unique_page_view_1823_web": "265826",
+        " Enquiries": {
+            "Call": "194994",
+            "Email": "2541",
+            "Fax": "42",
+            "Apps": "626",
+            "Chatbot": "104",
+            "Voicebot": "167",
+            "SMS": "150",
+            "Web": "481"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "26603",
+            "Email": "6449",
+            "Fax": "193",
+            "Apps": "13562",
+            "Voicebot": "174",
+            "SMS": "149",
+            "Web": "6970"
+        },
+        " Suggestions": {
+            "Call": "801",
+            "Email": "45",
+            "Fax": "4",
+            "Apps": "109",
+            "SMS": "9",
+            "Web": "30"
+        },
+        " Compliments": {
+            "Call": "82",
+            "Email": "36",
+            "Fax": "2",
+            "Apps": "48",
+            "SMS": "1",
+            "Web": "15"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2021",
+            "Month": "Aug"
+        },
+        "No._of_calls_received": "504372",
+        "No._of_abandoned_calls": "59617",
+        "%_of_calls_answered_within_12seconds": "71%",
+        "Average_call_handling_time(seconds)": "531",
+        "No._of_non_voice": {
+            "No._of_emails": "29985",
+            "No._of_faxes": "569",
+            "No._of_Apps-inbound": "20312",
+            "No._of_SMS": "3004",
+            "No._of_web-inbound": "10005"
+        },
+        "Unique_page_view_1823_web": "253890",
+        " Enquiries": {
+            "Call": "197590",
+            "Email": "2394",
+            "Fax": "47",
+            "Apps": "1053",
+            "Chatbot": "97",
+            "Voicebot": "144",
+            "SMS": "243",
+            "Web": "533"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "24723",
+            "Email": "7001",
+            "Fax": "197",
+            "Apps": "13675",
+            "Voicebot": "184",
+            "SMS": "165",
+            "Web": "8486"
+        },
+        " Suggestions": {
+            "Call": "729",
+            "Email": "78",
+            "Fax": "0",
+            "Apps": "126",
+            "SMS": "0",
+            "Web": "44"
+        },
+        " Compliments": {
+            "Call": "82",
+            "Email": "39",
+            "Fax": "6",
+            "Apps": "49",
+            "SMS": "1",
+            "Web": "19"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    },
+    {
+        "Date": {
+            "Year": "2021",
+            "Month": "Sept"
+        },
+        "No._of_calls_received": "375236",
+        "No._of_abandoned_calls": "37602",
+        "%_of_calls_answered_within_12seconds": "65%",
+        "Average_call_handling_time(seconds)": "490",
+        "No._of_non_voice": {
+            "No._of_emails": "31007",
+            "No._of_faxes": "708",
+            "No._of_Apps-inbound": "23548",
+            "No._of_SMS": "3053",
+            "No._of_web-inbound": "9503"
+        },
+        "Unique_page_view_1823_web": "230808",
+        " Enquiries": {
+            "Call": "171144",
+            "Email": "2493",
+            "Fax": "53",
+            "Apps": "1556",
+            "Chatbot": "75",
+            "Voicebot": "78",
+            "SMS": "215",
+            "Web": "545"
+        },
+        "Complaints/ServiceRequests": {
+            "Call": "24288",
+            "Email": "7160",
+            "Fax": "229",
+            "Apps": "16258",
+            "Voicebot": "125",
+            "SMS": "176",
+            "Web": "8397"
+        },
+        " Suggestions": {
+            "Call": "634",
+            "Email": "76",
+            "Fax": "0",
+            "Apps": "112",
+            "SMS": "0",
+            "Web": "65"
+        },
+        " Compliments": {
+            "Call": "48",
+            "Email": "52",
+            "Fax": "1",
+            "Apps": "53",
+            "SMS": "1",
+            "Web": "20"
+        },
+        "1st_time_resolution": "99%",
+        "Cases_involving_more_than_1_department": "3%",
+        "Case_assigned_to_departments_within_3hours": "97%"
+    }
+]
