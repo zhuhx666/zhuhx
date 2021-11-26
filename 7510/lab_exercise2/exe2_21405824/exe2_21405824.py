@@ -72,6 +72,9 @@ account('bxy', 'Bo xiaoyu', '21001002', 'F', 'bobo3344')
 account('wyui', 'Wang yui', '21003203', 'M', 'yui00011')
 account('zhx', 'Zhu Hengxi', '21405824', 'M', '123456')
 
+result = db.child('/User/cbo/password').get().val()
+print(result)
+
 i = 'cbo','bxy','wyui','zhx'
 response = db.child('/Username_List').set(i)
 
