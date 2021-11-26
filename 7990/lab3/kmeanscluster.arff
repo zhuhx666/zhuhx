@@ -1,0 +1,25 @@
+@relation weather_clustered
+
+@attribute Instance_number numeric
+@attribute outlook {sunny,overcast,rainy}
+@attribute temperature numeric
+@attribute humidity numeric
+@attribute windy {TRUE,FALSE}
+@attribute play {yes,no}
+@attribute Cluster {cluster0,cluster1}
+
+@data
+0,sunny,85,85,FALSE,no,cluster0
+1,sunny,80,90,TRUE,no,cluster0
+2,overcast,83,86,FALSE,yes,cluster0
+3,rainy,70,96,FALSE,yes,cluster0
+4,rainy,68,80,FALSE,yes,cluster0
+5,rainy,65,70,TRUE,no,cluster1
+6,overcast,64,65,TRUE,yes,cluster1
+7,sunny,72,95,FALSE,no,cluster0
+8,sunny,69,70,FALSE,yes,cluster0
+9,rainy,75,80,FALSE,yes,cluster0
+10,sunny,75,70,TRUE,yes,cluster1
+11,overcast,72,90,TRUE,yes,cluster1
+12,overcast,81,75,FALSE,yes,cluster0
+13,rainy,71,91,TRUE,no,cluster1
